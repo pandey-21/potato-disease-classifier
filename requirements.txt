@@ -1,7 +1,7 @@
-tensorflow-cpu==2.10.0  # Use CPU version (Streamlit Cloud has no GPU)
+tensorflow-cpu==2.10.0  # Use CPU version (since Streamlit Cloud doesn't support GPU)
 streamlit==1.42.2
 numpy==1.26.4
 pillow==10.4.0
-protobuf==3.20.3  # TensorFlow 2.10.0 requires this specific version
+protobuf==3.19.6  # Compatible with TensorFlow 2.10.0
 requests
 matplotlib
